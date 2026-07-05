@@ -9,6 +9,7 @@ public class ArrayListPrac {
 		myArrayList.add("Satheesh");
 		myArrayList.add(10);
 		
+		
 //		System.out.println(myArrayList);
 		
 		HashSet<String> obj = new HashSet<String>();
@@ -33,6 +34,11 @@ public class ArrayListPrac {
 		hashm.put(100, "Aswin");
 		hashm.put(102, "Surya");
 		
-		System.out.println(hashm.get(100));
+//		System.out.println(hashm.get(100));
+		
+		List<Integer> newlist = new ArrayList<Integer>();
+		newlist.add(0,10);
+		newlist.add(0,20);
+		System.out.println(newlist);
 	}
 }
